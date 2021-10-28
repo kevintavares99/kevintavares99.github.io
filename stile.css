@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.nav {
+  width: 70%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 1rem;
+  font-family: sans-serif;
+  color: white;
+  font-size: 1.3rem;
+ 
+}
+
+.titles {
+  text-align: center;
+  height: 90vh;
+  width: 100%;
+  font-size: 2em;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background-color: rgba(100, 100, 100, 0.5);
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.img{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img img {
+  width: 520px;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+}
+.video video {
+  height: 400px;
+}
+
+
+.content_horarios{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content_horarios h2 {
+  font-family: sans-serif;
+  font-size: 3em;
+  color: white;
+}
+.tablas {
+  display:flex;
+  justify-content: center;
+  margin: 50px;
+  color: white;
+}
+
+
+
+.default tr {
+  text-align: center;
+
+}
+
+.default tr td {
+  padding: 10px;
+}
+
+
+.listas {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.content_listas {
+  width: 30%;
+  margin: 10px;
+}
+
+.programa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #444;
+}
+
+.espacio  {
+
+  width: 100%;
+  height: 30px;
+  background-color: #444;
+}
+
+.programa p{
+  width: 20%;
+}
+
+.tabla-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  color: white;
+  margin-top: -160px;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+
+.tabla-2 h2 {
+  width: 100%;
+
+}
+
+
